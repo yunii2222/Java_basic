@@ -2,8 +2,11 @@ package ref;
 
 public class VarChange2 {
     public static void main(String[] args) {
+
+        // 실제 인스턴스는 1개이고, 참조값이 같은 곳을 가르킨다.
         Data dataA = new Data();
         dataA.value = 10;
+        // 참조값만 읽어서 B에 들어감
         Data dataB = dataA;
 
         System.out.println("dataA 참조값=" + dataA);

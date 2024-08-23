@@ -9,10 +9,12 @@ public class VarChange1 {
 
         //a 변경
         a = 20;
-        System.out.println("변경 a = 20"); System.out.println("a = " + a); System.out.println("b = " + b);
+        System.out.println("변경 a = 20"); System.out.println("a = " + a);
+        System.out.println("b = " + b);
 
         //b 변경
         b = 30;
-        System.out.println("변경 b = 30"); System.out.println("a = " + a); System.out.println("b = " + b);
+        System.out.println("변경 b = 30"); System.out.println("a = " + a);
+        System.out.println("b = " + b);
     }
 }
